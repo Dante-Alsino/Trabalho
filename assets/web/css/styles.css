@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 0.8vw;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #dd6d26;
+    border-radius: 20px;
+}
+
+body{
+    background-color: #d6d7d7;
+    color: black;
+    font-weight: 600;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-banner{
+    width: 100%;
+    margin-bottom: -1rem;
+}
+
+/* ######################################## MENU DE NAVEGAÇÃO ######################################## */
+nav {
+    background-color: white;
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    font-size: 1rem;
+}
+
+nav a, nav a:visited{
+    margin: 5.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+nav i{
+    color: #dd6d26;
+}
+
+nav a:hover{
+    border-bottom: #dd6d26 2px solid;
+}
+
+nav a:active{
+    border-bottom: #dd6d26 2px solid;
+}
+
+/* ##################################### FIM DO MENU DE NAVEGAÇÃO ##################################### */
+
+/* ###################################### MAIN: CONTEÚDOS DA HOME ###################################### */
+.home-main{
+    background-color: #d6d7d7;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-float-button{
+    width: 6vw;
+    height: 12vh;
+    border-radius: 20%;
+    font-size: 3rem;
+    text-align: center;
+    color: #dd6d26;
+    line-height: 12vh;
+    background-color: white;
+    border: #dd6d26 solid 2px;
+    position: fixed;
+    bottom: 6%;
+    right: 6%;
+}
+
+.home-float-button:hover{
+    background-color: #df7635b4;
+}
+
+.home-float-button a, .home-float-button a:visited{
+    color: #dd6d26;
+    text-decoration: none;
+}
+
+/* ###################################### HOME: REDES SOCIAIS ###################################### */
+
+.home-container-socialmedia{
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 2px rgba(15, 15, 15, 0.397);
+}
+
+.socialmedia-float{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 40%;
+    float: left;
+    margin: 3% 3%;
+}
+
+.home-socialmedia{
+    background-color: #d6d7d7;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 0.6%;
+    border-radius: 100%;
+}
+
+.socialmedia-float a, .socialmedia-float a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.socialmedia-float a:hover{
+    color: #dd6d26;
+}
+
+/* ###################################### FIM DAS REDES SOCIAIS ###################################### */
+
+/* ###################################### HOME: SOBRE A AGÊNCIA ###################################### */
+
+.home-container-about{
+    background-color:white;
+    width: 70vw;
+    min-height: 150vh;
+    display: inline-block;
+    margin: 4%;
+}
+
+.home-about-text{
+    width: 100%;
+    min-height: 75vh;
+    display: block;
+}
+
+.about-text-column{
+    width: 30vw;
+    height: 20vh;
+    float: left;
+    margin-left: 4.5%;
+    text-align: justify;
+}
+
+.home-container-about h1{
+    color: #dd6d26;
+    margin: 2%;
+    margin-left: 4%;
+}
+
+#img-about{
+    width: 100%;
+}
+
+.home-about-contact, .home-about-singin{
+    width: 100%;
+    padding: 2% 8%;
+}
+
+.home-about-contact i, .home-about-singin i{
+    color: #dd6d26;
+    padding: 1% 2%;
+}
+
+.home-about-contact h4{
+    color: #dd6d26;
+    font-size: 2rem;
+}
+
+.home-about-singin h4{
+    color: #dd6d26;
+    font-size: 1.5rem;
+}
+
+.home-about-singin a, .home-about-singin a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.home-about-singin a:hover{
+    border-bottom: #dd6d26 2px solid;
+}
+
+/* ###################################### FIM DO SOBRE A AGÊNCIA ###################################### */
+
+
+/* ###################################### HOME: PACOTES ###################################### */
+
+.home-container-pacotes{
+    background-color:white;
+    width: 70vw;
+    min-height: 100vh;
+    display: inline-block;
+    margin: 4% 0;
+    padding-bottom: 2%;
+}
+
+.home-container-pacotes h1{
+    color: #dd6d26;
+    margin: 2%;
+    margin-left: 4%;
+}
+
+.home-pacotes{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 2% 0;
+    margin-left: 6%;
+    padding: 2%;
+    width: 25%;
+    min-height: 80vh;
+    border: #d6d7d7 solid 1px;
+    color: black;
+    text-align: justify;
+}
+
+.home-pacotes i{
+    color: #dd6d26;
+}
+
+.home-pacotes:hover{
+    border: #dd6d26 solid 1px;
+}
+
+#img-pacotes{
+    width: 90%;
+    align-self: center;
+}
+
+.home-pacotes b{
+    color: #dd6d26;
+}
+
+/* ###################################### FIM DOS PACOTES ###################################### */
+
+/* ######################################### HOME: INSTITUIÇÕES ####################################*/
+
+.home-container-instituicoes{
+    background-color:white;
+    width: 70vw;
+    min-height: 100vh;
+    display: inline-block;
+    margin: 4%;
+    padding-bottom: 2%;
+}
+
+.home-instituicao{
+    display: flex;
+    flex-direction: column;
+    float:left;
+    margin: 2% 0;
+    margin-left: 2.5%;
+    padding: 2%;
+    width: 30%;
+    min-height: 93vh;
+    border: #d6d7d7 solid 1px;
+    color: black;
+    text-align: justify;
+}
+
+#img-instituicao{
+    width: 90%;
+    align-self: center;
+}
+
+.home-container-instituicoes h1{
+    color: #dd6d26;
+    margin: 2%;
+    margin-left: 4%;
+}
+
+.home-instituicao b, .home-instituicao i{
+    text-align: left;
+    color: #dd6d26;
+}
+
+.home-instituicao h4{
+    color: #dd6d26;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.home-instituicao:hover{
+    border: #dd6d26 solid 1px;
+}
+/* ######################################## FIM DAS INSTITUIÇÕES #####################################*/
+
+/* ############################################## HOME: FAQ ##########################################*/
+
+.home-container-faq{
+    background-color: white;
+    width: 94vw;
+    min-height: 50vh;
+    margin: 2% 2vw;
+    padding: 4%;
+}
+
+#img-faq{
+    width: 8%;
+    float: left;
+    margin-right: 2%;
+}
+
+.home-container-faq h1{
+    color: #dd6d26;
+}
+
+.faq-question{
+    margin-top: 3%;
+    background-color: #d6d7d7;
+    width: 100%;
+    min-height: 8vh;
+    line-height: 8vh;
+    font-size: 1.2rem;
+    padding: 0 8%;
+}
+
+.faq-question:hover{
+    border-bottom: #dd6d26 2px solid;
+}
+
+.faq-question button{
+    background-color: #d6d7d7;
+    font-size: 2rem;
+    float: right;
+    height: 8vh;
+}
+
+.faq-question button:hover{
+    color: #dd6d26;
+}
+
+.faq-answer{
+    background-color: #d6d7d7;
+    width: 100%;
+    min-height: 8vh;
+    display: none;
+    margin-top: 0.5%;
+    padding: 2%;
+    border: #dd6d26 solid 1px;
+}
+
+.show{
+    display: inline-block;
+}
+
+/* ############################################## FIM DO FAQ #########################################*/
+
+/* ##################################### FIM DOS CONTEÚDOS DA HOME ##################################### */
+
+/* ##################################### PÁGINA DE LOG-IN DO USUÁRIO ##################################### */
+
+.user-login{
+    background-color: white;
+    width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 4% 0;
+}
+
+.user-login h2{
+    color: #dd6d26;
+}
+
+#form-img{
+    width: 40%;
+}
+
+.user-login label{
+    margin-left: 4%;
+}
+
+.user-login input{
+    margin: 1% 0;
+    width: 40vw;
+    height: 8vh;
+    border: #d6d7d7 2px solid;
+    border-radius: 20px;
+}
+
+.user-login input:hover{
+    border: #dd6d26 solid 2px;
+}
+
+.user-login input:focus{
+    border: 2px solid #dd6d26;
+    background-color: #d6d7d7;
+    outline: none;
+    padding: 2%;
+}
+
+.user-login button{
+    width: 40vw;
+    height: 6vh;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #dd6d26;
+    border-radius: 20px;
+    margin: 4% 0;
+}
+
+.user-login p{
+    text-align: center;
+}
+
+.user-login a{
+    text-decoration: none;
+    color: #dd6d26;
+}
+
+.user-login a:hover{
+    border-bottom: #dd6d26 1px solid;
+}
+
+/* ##################################### FIM DO LOG-IN DO USUÁRIO ##################################### */
+
+/* ##################################### PÁGINA DE CADASTRO DO USUÁRIO ##################################### */
+
+.user-cadastro{
+    background-color: white;
+    width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 4% 0;
+}
+
+.user-cadastro label{
+    margin-left: 4%;
+    color: black;
+}
+
+.user-cadastro input{
+    margin: 1% 0;
+    width: 40vw;
+    height: 8vh;
+    border: #d6d7d7 2px solid;
+    border-radius: 20px;
+}
+
+.user-cadastro input:hover{
+    border: #dd6d26 solid 2px;
+}
+
+.user-cadastro input:focus{
+    border: 2px solid #dd6d26;
+    background-color: #d6d7d7;
+    outline: none;
+    padding: 2%;
+}
+
+.user-cadastro button{
+    width: 40vw;
+    height: 6vh;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #dd6d26;
+    border-radius: 20px;
+    margin: 4% 0;
+}
+
+.user-cadastro p{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.user-cadastro a{
+    text-decoration: none;
+    color: #dd6d26;
+    font-size: 1.2rem;
+}
+
+.user-cadastro a:hover{
+    border-bottom: #dd6d26 1px solid;
+}
+
+.login-adm-float-button{
+    width: 6vw;
+    height: 12vh;
+    border-radius: 20%;
+    font-size: 3rem;
+    text-align: center;
+    color: #dd6d26;
+    line-height: 12vh;
+    background-color: white;
+    border: #dd6d26 solid 2px;
+    position: fixed;
+    bottom: 22%;
+    right: 6%;
+}
+
+
+.login-adm-float-button:hover{
+    background-color: #df7635b4;
+}
+
+.login-adm-float-button a, .login-adm-float-button a:visited{
+    color: #dd6d26;
+    text-decoration: none;
+}
+
+/* ##################################### FIM DO CADASTRO DO USUÁRIO ##################################### */
+
+/* ##################################### PÁGINA DE LOG-IN DO ADM ##################################### */
+
+.adm-login{
+    background-color: white;
+    width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 4% 0;
+}
+
+.adm-login h2{
+    color: #dd6d26;
+}
+
+.adm-login label{
+    margin-left: 4%;
+}
+
+.adm-login input{
+    margin: 1% 0;
+    width: 40vw;
+    height: 8vh;
+    border: #d6d7d7 2px solid;
+    border-radius: 20px;
+}
+
+.adm-login input:hover{
+    border: #dd6d26 solid 2px;
+}
+
+.adm-login input:focus{
+    border: 2px solid #dd6d26;
+    background-color: #d6d7d7;
+    outline: none;
+    padding: 2%;
+}
+
+.adm-login button{
+    width: 40vw;
+    height: 6vh;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #dd6d26;
+    border-radius: 20px;
+    margin: 4% 0;
+}
+
+.adm-login p{
+    text-align: center;
+}
+
+/* ##################################### FIM DO LOG-IN DO ADM ##################################### */

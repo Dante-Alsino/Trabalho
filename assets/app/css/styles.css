@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 0.8vw;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #dd6d26;
+    border-radius: 20px;
+}
+
+body{
+    background-color: #d6d7d7;
+    color: black;
+    font-weight: 600;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-banner{
+    width: 100%;
+}
+/*#################################### MENU DE NAVEGAÇÃO ####################################*/
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 6vh;
+    margin: 0;
+    font-size: 1rem;
+}
+
+nav a, nav a:visited{
+    margin: 7.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #dd6d26;
+}
+
+nav i{
+    color: #dd6d26;
+}
+
+/*##################################### FIM DA NAVEGAÇÃO ######################################*/
+
+/* ################################## APP HOME ###################################*/
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6d7d7;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 0.8vw;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #dd6d26;
+    border-radius: 20px;
+}
+
+main{
+    width: 50vw;
+    height: 60vh;
+    background-color: #eeeef3;
+    margin-left: 25%;
+    margin-top: 23vh;
+    padding-top: 5vh;
+    border-radius: 5%;
+}
+
+main .content{
+    height: 15vh;
+    width: 55vw;
+    margin-left: 23%;
+}
+
+.home-icon{
+    background-color: #dd6d26;
+    border: #dd6d26 solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 42px;
+    width: 4vw;
+    height: 7vh;
+    padding: 0.5%;
+    line-height: 7vh;
+    color: white;
+    float: left;
+}
+
+.home-link{
+    float: left;
+    margin-left: 1%;
+    border: #d6d7d7 solid 1px;
+    border-radius: 20px;
+    width: 20vw;
+    height: 4vh;
+    background-color: #d6d7d7;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.home-link:visited{
+    color: #272027;
+}
+
+.fa-circle-arrow-right{
+    color: #dd6d26;
+    float: right;
+    
+}
+
+/* ################################################################################*/
+
+/* ################################## PERFIL ###################################*/
+
+main #container-perfil{
+    width: 49.9vw;
+    min-height: 85vh;
+    margin-left: 0;
+    margin-right: 0;
+    border: #E4E4E4 solid 1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 2%;
+    background-color: white;
+}
+
+#profile_pic{
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+h1{
+    color: #dd6d26;
+    text-align: center;
+}
+
+#container-perfil p{
+    margin-left: 20%;
+    float: left;
+}
+
+#container-perfil b{
+    color: #dd6d26;
+}
+
+.buttons-perfil button{
+    width: 10vw;
+    height: 5vh;
+    border: #dd6d26 2px solid;
+    border-radius: 20px;
+    background-color: #dd6d26;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+/* #sair{
+    margin-left: 20%;
+    margin-top: 3%;
+} */
+
+/* ################################################################################*/
+
+/* ############################ PACOTES ######################### */
+
+#main-pacotes{
+    background-color: #d6d7d7;
+    border: #d6d7d7;
+}
+
+#services{
+    background-color: white;
+    min-height: 230vh;
+    border-radius: 20px;
+}
+
+.cabecalho{
+    height: 10vh;
+    color: #E4E4E4;
+    background-color: #dd6d26;
+    border-bottom: 2px #E4E4E4 solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 28px;
+    display: flex;
+    line-height: 10vh;
+    padding-left: 26%;
+    font-weight: bold;
+}
+
+.pacotes{
+    float: left;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 13vw;
+    height: 47vh;
+    border: #d6d7d7 solid 1px;
+    color: black;
+    text-align: justify;
+}
+
+.pacotes:hover{
+    border: #dd6d26 solid 1px;
+}
+
+.pacotes p{
+    margin: 4%;
+}
+
+.pacotes b{
+    color: #dd6d26;
+    font-size: 20px;
+    margin-left: 12%;
+}
+
+.imgPacotes{
+    width: 10vw;
+    margin-top: 8%;
+    margin-left: 12%;
+}
+
+#links-pacotes button{
+    width: 30vw;
+    height: 5.5vh;
+    border: #dd6d26 2px solid;
+    border-radius: 20px;
+    background-color: #dd6d26;
+    color: white;
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 21%;
+}
+
+/* ############################################################### */
+
+/* ############################## EDITAR PERFIL #######################################*/
+
+
+
+/* ################################################################################*/

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3F7F6;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 0.8vw;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #dd6d26;
+    border-radius: 20px;
+}
+
+main{
+    width: 80vw;
+    min-height: 90vh;
+    background-color: #eeeef3;
+    margin-left: 10vw;
+    margin-top: 23vh;
+    padding-top: 5vh;
+}
+
+main .container #container-perfil{
+    width: 70vw;
+    min-height: 103vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: #E4E4E4 solid 1px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+#profile_pic{
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+h1{
+    color: #dd6d26;
+    text-align: center;
+}
+
+#container-perfil p{
+ margin-left: 20%;
+    float: left;
+}
+
+#container-perfil b{
+    color: #dd6d26;
+}
+
+#container-perfil button{
+    width: 10vw;
+    height: 5vh;
+    border: #dd6d26 2px solid;
+    border-radius: 20px;
+    background-color: #dd6d26;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+#editar{
+    float: left;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#sair{
+    float: right;
+    margin-right: 30%;
+    margin-top: 6%;
+}
+
